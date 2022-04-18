@@ -1,0 +1,84 @@
+body {
+	font-size: 14px;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-nav {
+	background-color: #E0FFFF;
+	border-radius:0;
+	border:0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #000 !important;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color:black;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 1px;
+	line-height: 1;
+}
+
+#nav-list{
+  border:1px solid;
+  text-align: center;
+}
+#nav-list li a{
+  color:black;
+  font-weight: 600;
+  line-height: 8px;
+  font-size: 1.5em;
+}
+#nav-button{
+	border-radius: : 0;
+	margin: 0;
+	padding: 0;
+}
+
+#collapsable-nav a{
+	font-size: 1.2em;
+	font-weight: 100;
+}
+#nav-list a{
+	text-align: center;
+}
+
+section{
+ background-color: gray;
+ width: 90%;
+ padding: 1px 1px;
+}
+.item-name{
+	font-size: 1.5em;
+}
+
+@media (max-width:767px){
+  .menu{
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 15px;
+  }
+  .menu-item p{
+    font-weight: 600;
+    font-size: 1em;
+    padding:5px 15px;
+  }
+} 
+
+
+
+
